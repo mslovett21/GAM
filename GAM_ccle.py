@@ -75,7 +75,7 @@ def main():
  #   standarize = lambda x: (x-x.mean()) / x.std()
  #   gene_expression=gene_expression.pipe(standarize)
     
-    results_file = open("Results_GAM_gdsc.txt", "a+")
+    results_file = open("Results_GAM_ccle.txt", "a+")
     results_file.write("set_size,lam,n_splines,spearmanr,pval")
     results_file.write('\n')
     # open file with with feature sets 
